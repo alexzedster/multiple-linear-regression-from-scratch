@@ -1,0 +1,34 @@
+### Python ###
+# Кэш компиляции
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Виртуальные окружения
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+include/
+share/
+
+### PyCharm (JetBrains) ###
+# Игнорируем всю папку с настройками IDE
+.idea/
+# Если хотите оставить настройки проекта, но скрыть личные, 
+# можно использовать вариант ниже (но чаще всего .idea просто удаляют целиком)
+# .idea/*.xml
+# !.idea/vcs.xml
+
+### VS Code ###
+.vscode/
+
+### Данные и секреты ###
+.env
+*.log
+*.sqlite3
